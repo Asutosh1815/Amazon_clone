@@ -1,0 +1,165 @@
+*{
+  margin: 0;
+  border: border-box;
+}
+
+.navbar{
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.border:hover{
+  border: 1.5px solid white;
+}
+
+.navlogo{
+  height: 50px;
+  width: 120px;
+}
+
+.logo{
+  background-image: url("logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.address{
+  font-size: 15px;
+  color: white;
+}
+
+.icon{
+  display: flex;
+  margin-left: 3px;
+  font-size: 10px;
+  color: white;
+}
+
+.searchbar{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 820px;
+  padding: 1rem;
+}
+
+.search{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.search_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  color: black;
+  height: 50px;
+  width: 50px;
+}
+
+.language{
+  padding: 1rem;
+}
+
+.account{
+  color: white;
+  padding: 1rem;
+}
+
+.return{
+  color: white;
+  padding: 1rem;
+  font-size: small;
+}
+
+.order{
+  font-size: medium;
+}
+
+.cart{
+  color: white;
+  padding: 1rem;
+  font-size: large;
+}
+
+.pannel{
+  background-color: black;
+  color: white;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.hero{
+  background-image: url("hero.jpg");
+  background-size: cover;
+  height: 300px;
+  align-items: flex-end;
+}
+
+.shop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+  background-color: grey;
+}
+
+.box{
+  height: 400px;
+  width:20%;
+  padding: 20px 10px 15px;
+  border: 3px solid white;
+  background-color: aliceblue;
+}
+
+.box-img{
+  height: 300px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-size: contain;
+}
+
+.foot-pannel{
+  background-color: beige;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.description{
+  background-color: bisque;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+ul a{
+  margin-top: 10px;
+  font-size: 0.85;
+  display: flex;
+}
+
+.foot-logo{
+  background-image: url("logo.png");
+  background-size: cover;
+  background-color: black;
+  height: 50px;
+  width: 100px;
+  margin-left: 43rem;
+}
+
+.info{
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
